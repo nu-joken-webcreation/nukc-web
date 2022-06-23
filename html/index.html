@@ -66,6 +66,15 @@
 				);
 			}
 		</script>
+		<!--headerとfooter(共通パーツ)のload-->
+		<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script>
+		//共通パーツ読み込み
+			$(function() {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
 
 		<!--css読み込み-->
 		<link rel="stylesheet" href="../css/index.css" />
@@ -73,9 +82,11 @@
 	</head>
 
 	<body>
-		<div class="wrapper">
+		<div id="header"></div>
+		<div class="indexWrapper">
 			
 		</div>
+		<div id="footer"></div>
 		<script src="<?php echo $assets_path; ?>/js/common.js" defer></script>
 		<script src="<?php echo $assets_path; ?>/js/hamburgerNav.js" defer></script>
 		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
