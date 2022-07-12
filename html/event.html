@@ -2,20 +2,38 @@
 <html lang="jp">
 
     <head>
-        <script>
-            //共通パーツの読み込み
-            $(function() {
-                $("#header").load("header.html");
-                $("#footer").load("footer.html");
-            });
-        </script>
+        <meta lang="utf-8">
+        <title>Event</title>
+        <!--headerとfooter(共通パーツ)のload-->
+		<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script>
+		//共通パーツ読み込み
+			$(function() {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
 
-        <link rel="stylesheet" href="../css/event.css" />
+        <!--css読み込み-->
+		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="stylesheet" href="../css/header.css" />
+		<link rel="stylesheet" href="../css/hero.css" />
+		<link rel="stylesheet" href="../css/footer.css" />
+		<link rel="stylesheet" href="../css/event.css" />
+
     </head>
     <body>
-        <div id="header"></div>
-        <div id="hero"></div>
-        <div class="event"><!--ナビゲーションの追加-->
+        <div id="hero">
+			<div class="heroWrapper" >
+				<div class="heroTitle">
+					<h2>About Us</h2>
+					<span>活動内容</span>
+				</div>
+			</div>
+		</div>
+		<div id="header"></div>
+        <!--ナビゲーションの追加-->
+        <div class="eventWrapper">
             <div class="navi">    
                 <ul class="navibar">
                     <li>新入生歓迎会</li>
