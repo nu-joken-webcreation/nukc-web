@@ -1,9 +1,22 @@
 /* hero */
-
-.heroWrapper {
-  background-image: url(/img/hero.png);
-  background-size: 1920px;
+#hero {
+  background-image: url(/img/hero1.png);
+  background-size: cover;
   width: 100%;
-  width: 1920px;
   height: 600px;
+}
+
+.heroWrapper { 
+  width: 100%;
+}
+
+.heroTitle {
+  text-align: center;
+  padding-top: 260px;
+}
+.heroTitle h2{
+  font-size: 60px;
+}
+.heroTitle span{
+  font-size: 30px;
 }
