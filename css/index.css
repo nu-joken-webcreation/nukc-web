@@ -1,5 +1,10 @@
-body {
+body, div, p, h1, h2, h3, h4 , ul, figure {
   margin: 0;
+  padding: 0;
+}
+p , td, th, li {
+  line-height: 1.8;
+  list-style: none;
 }
 
 .indexWrapper {
