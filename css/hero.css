@@ -1,13 +1,13 @@
 /* hero */
 #mainHero {
-  background-image: url(https://nu-joken-webcreation.github.io/nukc-web/img/mainHero.png);
+  background-image: url(/img/mainHero.png);
   background-size: cover;
   width: 100%;
   height: 1080px;
   position: relative;
 }
 #hero {
-  background-image: url(https://nu-joken-webcreation.github.io/nukc-web/img/hero1.png);
+  background-image: url(/img/hero1.png);
   background-size: cover;
   width: 100%;
   height: 600px;
