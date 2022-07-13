@@ -1,0 +1,43 @@
+/* hero */
+#mainHero {
+  background-image: url(/img/mainHero.png);
+  background-size: cover;
+  width: 100%;
+  height: 1080px;
+  position: relative;
+}
+#hero {
+  background-image: url(/img/hero1.png);
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.heroWrapper .mainHeroTitle { 
+  width: 100%;
+  height: 100%;
+}
+
+.mainHeroTitle .titleBox {
+  font-size: 70px;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+.mainHeroTitle .titleItem {
+  font-size: 150px;
+  position: absolute;
+  bottom: 20px;
+  right: 60px;
+}
+
+.heroTitle {
+  text-align: center;
+  padding-top: 260px;
+}
+.heroTitle h2{
+  font-size: 60px;
+}
+.heroTitle span{
+  font-size: 30px;
+}
