@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+    <head>
+        <meta lang="utf-8">
+        <title>Joken - about us</title>
+        <!--headerとfooter(共通パーツ)のload-->
+		<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script>
+		//共通パーツ読み込み
+			$(function() {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
+
+		<!--css読み込み-->
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/hero.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/event.css" />
+
+    </head>
+    <body>
+        <div id="hero">
+			<div class="heroWrapper" >
+				<div class="heroTitle">
+					<h2>About Us</h2>
+					<span>活動内容</span>
+				</div>
+			</div>
+		</div>
+		<div id="header"></div>
+        <!--ナビゲーションの追加-->
+        <div class="eventWrapper">
+            <div class="navi">    
+                <ul class="navibar">
+                    <li>新入生歓迎会</li>
+                    <li>定例会</li>
+                    <li>夏の開発合宿</li>
+                    <li>チーム開発</li>
+                    <li>追い出しコンパ</li>
+                </ul>
+            </div>
+            <!--新入生歓迎会-->
+            <div class="">
+                <img src="" alt="">
+                <p>Welcome Party<p>
+                <h2>新入生歓迎会</h2>
+                <p>テキストテキストテキストテキストテキスト</p>
+            </div>
+            <!--定例会-->
+            <div class="">
+                <img src="" alt="">
+                <p>Regular Meeting<p>
+                <h2>定例会</h2>
+                <p>テキストテキストテキストテキストテキスト</p>
+            </div>
+            <!--夏の開発合宿-->
+            <div class="">
+                <img src="" alt="">
+                <p>Summer Camp<p>
+                <h2>夏の開発合宿</h2>
+                <p>テキストテキストテキストテキストテキスト</p>
+            </div>
+            <!--チーム開発-->
+            <div class="">
+                <img src="" alt="">
+                <p>ti-mukaihatu<p>
+                <h2>チーム開発</h2>
+                <p>テキストテキストテキストテキストテキスト</p>
+            </div>
+            <!--追い出しコンパ-->
+            <div class="">
+                <img src="" alt="">
+                <p>oidasikonpa<p>
+                <h2>追い出しコンパ</h2>
+                <p>テキストテキストテキストテキストテキスト</p>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>
