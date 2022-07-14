@@ -3,7 +3,7 @@
   background-image: url(../assets/img/mainHero.png);
   background-size: cover;
   width: 100%;
-  height: 1080px;
+  height: 850px;
   position: relative;
 }
 #hero {
@@ -21,14 +21,14 @@
 .mainHeroTitle .titleBox {
   font-size: 70px;
   position: absolute;
-  top: 250px;
-  left: 200px;
+  top: 150px;
+  left: 100px;
 }
 .mainHeroTitle .titleItem {
   font-size: 150px;
   position: absolute;
   bottom: 20px;
-  right: 60px;
+  right: 100px;
 }
 
 .heroTitle {
