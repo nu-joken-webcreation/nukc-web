@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>contact</title>
+		
+		<script>
+		//共通パーツ読み込み
+			$(function() {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
+		
+		<!--css読み込み-->
+
+		<link rel="stylesheet" href="../css/header.css" />
+		<link rel="stylesheet" href="../css/footer.css" />
+		<link rel="stylesheet" href="../css/contact.css" />
+
+	</head>
+
+	<body>
+		<div id="header"></div>
+		
+		<div class="contactWrapper"><!--ナビゲーションの追加-->
+		<div class="lead">
+      		ご意見，ご質問などはこちらから
+      	</div>
+    	<iframe class="googleform"src="https://docs.google.com/forms/d/e/1FAIpQLSc_aNV3yNbBo4A4OJhebnq1o9MVPc-xYLZl9xrpjwR7UzG-TA/viewform">
+			読み込んでいます…
+		</iframe>
+		</div>
+
+		<div id="footer"></div>
+	</body>
+
+</html>
+
