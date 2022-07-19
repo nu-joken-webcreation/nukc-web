@@ -16,8 +16,7 @@ header {
   }
 }
 .headerWrapper {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 30px 1rem 30px;
   display: flex;
   flex-wrap: inherit;
   align-items: center;
@@ -52,7 +51,7 @@ header {
 }
 .headerNavItem {
   padding-left: 40px;
-  margin-right: 1rem;
+  padding-right: 40px;
   list-style:none;
 }
 .headerNavItem a {
