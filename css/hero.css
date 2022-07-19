@@ -1,13 +1,51 @@
 /* hero */
+#mainHero {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+url("../assets/img/laptop.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+  position: relative;
+}
 #hero {
-  background-image: url(/img/hero1.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+  url("../assets/img/laptop2.jpg");
   background-size: cover;
   width: 100%;
   height: 600px;
 }
 
-.heroWrapper { 
+#mainHero.heroWrapper {
+  height: inherit;
+  background-image: url(../assets/img/path-40.png);
+  background-size: cover;
+}
+.heroWrapper {
+  height: inherit;
+}
+
+.heroWrapper .mainHeroTitle { 
   width: 100%;
+  height: 100%;
+}
+
+.mainHeroTitle .titleBox, .mainHeroTitle .titleItem, .heroTitle {
+  text-transform: uppercase !important;
+  color: #fff;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.mainHeroTitle .titleBox {
+  font-size: 70px;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+.mainHeroTitle .titleItem {
+  font-size: 150px;
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
 }
 
 .heroTitle {

@@ -3,7 +3,9 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title></title>
+		<title>Joken</title>
+		<!-- Favicon-->
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
 		<meta property="og:url" content="" />
@@ -24,6 +26,11 @@
 		<!--adobefont読み込み-->
 		<link rel="stylesheet" href="https://use.typekit.net/bdf2eva.css">
 		<link rel="stylesheet" href="https://use.typekit.net/trj6dnm.css">
+		<!-- Font Awesome icons (free version)-->
+		<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+		<!-- Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
 
 		<script>
 			const targetMetaEle = document.querySelector("meta[name='viewport']");
@@ -77,26 +84,90 @@
 		</script>
 
 		<!--css読み込み-->
-		<link rel="stylesheet" href="../css/index.css" />
-		<link rel="stylesheet" href="../css/header.css" />
-		<link rel="stylesheet" href="../css/hero.css" />
-		<link rel="stylesheet" href="../css/footer.css" />
-		
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/hero.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/event.css" />
+		<link rel="stylesheet" href="css/slider.css">
 
 	</head>
 
 	<body>
-		<div id="hero">
+		<div id="header"></div>
+		<div id="mainHero">
 			<div class="heroWrapper" >
-				<div class="heroTitle">
-					<h2>testTitle</h2>
-					<span>タイトル</span>
+				<div class="mainHeroTitle">
+					<div class="titleBox">
+						<h2>college</h2>
+						<h2>of</h2>
+						<h2>engineering</h2>
+					</div>
+					<div class="titleItem">
+						<h3>Joken</h3>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div id="header"></div>
 		<div class="indexWrapper">
-			
+			<section class="page-section" id="top">
+				<div class="container">
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase main-font">title</h2>
+						<p class="text-font">ここはテキトウな文章が入る</p>
+					</div>
+				</div>
+			</section>
+			<section class="page-section bg-light" id="slider">
+				<div class="sliderWrapper swiper">	
+					<ul class="sliderList swiper-wrapper">
+							<li class="swiper-slide"><img src="assets/img/laptop.jpg" /></li>
+							<li class="swiper-slide"><img src="assets/img/laptop2.jpg" /></li>
+							<li class="swiper-slide"><img src="assets/img/mac-ipad.jpg" /></li>
+					</ul>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="page-section" id="activity">
+				<div class="container">
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase main-font">Activity Log</h2>
+						<p class="text-font">ここはテキトウな文章が入る</p>
+					</div>
+					<ul class="blog-list">
+						<li class="blog-item activity">
+							<a href="#!">
+								<time>2022.7.19</time>
+								<span class="category blue">活動報告</span>
+								<p>こんなことしましたー！あんなことしましたー！ないすないすないすないす！</p>
+							</a>
+						</li>
+						<li class="blog-item activity">
+							<a href="#!">
+								<time>2022.7.10</time>
+								<span class="category blue">活動報告</span>
+								<p>こんなことしましたー！あんなことしましたー！ないすないすないすないす！</p>
+							</a>
+						</li>
+					</ul>
+					<ul class="blog-list">
+						<li class="blog-item portfolio">
+							<a href="#!">
+								<time>2022.7.20</time>
+								<span class="category purple">成果物</span>
+								<p>こんなの作りました！まじやばくね？</p>
+							</a>
+						</li>
+						<li class="blog-item portfolio">
+							<a href="#!">
+								<time>2022.7.18</time>
+								<span class="category purple">成果物</span>
+								<p>こんなの作りました！まじやばくね？ないすないすないす！</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
 		</div>
 		<div id="footer"></div>
 		<script src="<?php echo $assets_path; ?>/js/common.js" defer></script>
