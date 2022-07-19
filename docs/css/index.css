@@ -57,3 +57,51 @@ p , td, th, li {
 .text-center {
   text-align: center;
 }
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+}
+#activity .container .text-center p {
+  padding-bottom: 60px;
+}
+.blog-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+.blog-item:first-child {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.blog-item a{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 22px 30px;
+  text-decoration: none;
+}
+.blog-item time {
+  display: block;
+  margin-right: 60px;
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: bold;
+}
+.blog-item .category {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  margin-right: 50px;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 16px;
+}
+.blog-item .blue {
+  background-color: #89E0F3;
+}
+.blog-item .purple {
+  background-color: #89A0F3;
+}
+.blog-item p {
+  color: #6c757d;
+  font-size: 16px;
+}
