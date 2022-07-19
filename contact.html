@@ -2,9 +2,10 @@
 <html lang="jp">
 
 	<head>
-		<meta charset="UTF-8" />
-		<title>contact</title>
-		
+		<meta lang="utf-8">
+        <title>Joken - contact</title>
+        <!--headerとfooter(共通パーツ)のload-->
+		<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 		<script>
 		//共通パーツ読み込み
 			$(function() {
@@ -12,27 +13,40 @@
 				$("#footer").load("footer.html");
 			});
 		</script>
-		
+
+        <!-- Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
 		<!--css読み込み-->
-		
-		<link rel="stylesheet" href="../css/header.css" />
-		<link rel="stylesheet" href="../css/footer.css" />
-		<link rel="stylesheet" href="../css/contact.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/hero.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/contact.css" />
 
 	</head>
 
 	<body>
 		<div id="header"></div>
+		<div id="hero">
+			<div class="heroWrapper" >
+				<div class="heroTitle">
+					<h2>Contact Us</h2>
+					<span>お問い合わせ</span>
+				</div>
+			</div>
+		</div>
 		
 		<div class="contactWrapper"><!--ナビゲーションの追加-->
-		<div class="lead">
-      		ご意見，ご質問などはこちらから
-      	</div>
-    	<iframe class="googleform"src="https://docs.google.com/forms/d/e/1FAIpQLSc_aNV3yNbBo4A4OJhebnq1o9MVPc-xYLZl9xrpjwR7UzG-TA/viewform">
-			読み込んでいます…
-		</iframe>
+			<div class="lead">
+				ご意見，ご質問などはこちらから
+			</div>
+			<iframe class="googleform"src="https://docs.google.com/forms/d/e/1FAIpQLSc_aNV3yNbBo4A4OJhebnq1o9MVPc-xYLZl9xrpjwR7UzG-TA/viewform">
+				読み込んでいます…
+			</iframe>
 		</div>
-
+		
 		<div id="footer"></div>
 	</body>
 
