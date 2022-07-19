@@ -1,3 +1,6 @@
+# サイトurl
+https://nu-joken-website2022.github.io/nukc-web/
+
 # nukc-web
 
 ### 進め方
