@@ -1,8 +1,7 @@
 # サイトについて
 2022チーム開発（仮）でwebサイトを作ろう的な
 
-url
-<a href="https://nu-joken-website2022.github.io/nukc-web/" target="_blank">こちら</a>
+https://nu-joken-website2022.github.io/nukc-web/
 
 # nukc-web
 
