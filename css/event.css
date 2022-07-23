@@ -2,4 +2,37 @@
 /* =========== すべて共通 ===========*/
 .eventWrapper ul {
     list-style: none;
+    padding-left: 0;
+    justify-content: center;
+}
+
+li {
+    font-size: 24px;
+}
+
+p { 
+    font-size: 16px;
+}
+
+.subtitle {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+.navibar {
+    display: flex;
+}
+.navibar li {
+	width: 200px;
+	height: 50px;
+	padding: 25px;
+	margin: 25px;
+}
+
+img {
+    height: 600px;
+    width: 650px;
 }
