@@ -2,7 +2,6 @@
 /* =========== すべて共通 ===========*/
 .eventWrapper ul {
     list-style: none;
-    padding-left: 0;
     justify-content: center;
 }
 
@@ -38,38 +37,33 @@ h2 {
 
 .img-right {
     display: block;
-    height: 700px;
-    width: 950px;
-    margin-left: 800px;
+    height: 500px;
+    width: 600px;
     overflow: hidden;
     border-radius: 60px;
+    flex: 1;
+    padding: 50px;
 }
 
 .img-left {
     display: block;
-    height: 700px;
-    width: 950px;
-    margin-right: 150px;
-    margin-left: 300px;
+    height: 500px;
+    width: 600px;
     overflow: hidden;
-    border-radius: 30px;
+    border-radius: 60px;
+    flex: 1;
+    padding: 50px;
 }
 
 .main-Wrapper {
     display: flex;
     margin-top: 110px;
-    margin-bottom: 110px
-}
-
-.main-Wrapper li {
-    display: flex;
-    margin-left: 160px;
+    margin-bottom: 110px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-Wrapper span {
     color:aquamarine;
-}
-
-.leftText{
-    margin-left: 150px;
 }
