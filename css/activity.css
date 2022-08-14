@@ -1,0 +1,26 @@
+.activityWrapper {
+    background-color: #fff;
+    margin: 90px auto;
+    width: 90%;
+}
+
+.subheaderWrapper {
+    background-color: #fff;
+    margin-bottom: 90px;
+}
+
+.subheaderWrapper span {
+    color: #89E0F3;
+}
+
+.subheaderTop {
+    font-size: 24px;
+}
+
+.subheaderDown {
+    font-size: 24px;
+}
+
+.listWrapper {
+    background-color: #fff;
+}
