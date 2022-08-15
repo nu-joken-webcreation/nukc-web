@@ -1,69 +1,46 @@
-@charset "utf-8";
-/* =========== すべて共通 ===========*/
-.eventWrapper ul {
-    list-style: none;
-    justify-content: center;
+.eventWrapper {
+	max-width: 1320px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-
-p { 
-    font-size: 16px;
+/*navi*/
+.eventWrapper .navi .navibar {
+	display: flex;
+}
+.eventWrapper .navi .navibar li {
+	flex: 1;
+	text-align: center;
 }
 
-.subTitle {
-    font-size: 32px;
+/*eventcontens*/
+.eventWrapper .eventContents {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+}
+.eventWrapper .imageItem{
+	flex: 1;
+	text-align: center;
+} 
+.eventWrapper .textItem {
+	flex: 1;
+}
+.eventWrapper .imageItem img{
+	width: 100%;
+	max-width: 500px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 30px;
 }
 
-.subTitle2 {
-    font-size: 64px;
+.eventContents .left {
+	text-align: right;
+	padding-right: 10px;
 }
-
-h2 {
-    font-size: 60px;
-}
-
-.navibar {
-    display: flex;
-}
-
-.navibar li {
-	width: 200px;
-	height: 50px;
-	padding: 25px;
-	margin: 25px;
-    font-size: 24px;
-}
-
-
-.img-right {
-    display: block;
-    height: 500px;
-    width: 600px;
-    overflow: hidden;
-    border-radius: 60px;
-    flex: 1;
-    padding: 50px;
-}
-
-.img-left {
-    display: block;
-    height: 500px;
-    width: 600px;
-    overflow: hidden;
-    border-radius: 60px;
-    flex: 1;
-    padding: 50px;
-}
-
-.main-Wrapper {
-    display: flex;
-    margin-top: 110px;
-    margin-bottom: 110px;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-Wrapper span {
-    color:aquamarine;
+.eventContents .right {
+	text-align: left;
+	padding-left: 10px;
 }
