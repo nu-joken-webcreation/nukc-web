@@ -8,10 +8,18 @@
 /*navi*/
 .eventWrapper .navi .navibar {
 	display: flex;
+	margin: 40px;
 }
 .eventWrapper .navi .navibar li {
 	flex: 1;
 	text-align: center;
+}
+
+.eventContents {
+	display: inline-block;
+	margin: 40px;
+	padding: 82px 20px 40px 20px;
+	border-top: solid 2px #D9D9D9;
 }
 
 /*eventcontens*/
@@ -19,7 +27,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 50px 0;
 }
 .eventWrapper .imageItem{
 	flex: 1;
@@ -43,4 +50,8 @@
 .eventContents .right {
 	text-align: left;
 	padding-left: 10px;
+}
+
+.eventContents span {
+	color:aqua;
 }
