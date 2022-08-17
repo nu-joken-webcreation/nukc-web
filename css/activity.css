@@ -4,23 +4,23 @@
     width: 90%;
 }
 
-.subheaderWrapper {
+.activityWrapper .subheaderWrapper {
     background-color: #fff;
     margin-bottom: 90px;
 }
 
-.subheaderWrapper span {
+.activityWrapper .subheaderWrapper span {
     color: #89E0F3;
 }
 
-.subheaderTop {
+.activityWrapper .subheaderTop {
     font-size: 24px;
 }
 
-.subheaderDown {
+.activityWrapper .subheaderDown {
     font-size: 24px;
 }
 
-.listWrapper {
+.activityWrapper .listWrapper {
     background-color: #fff;
 }
