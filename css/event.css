@@ -15,18 +15,15 @@
 	text-align: center;
 }
 
-.eventContents {
-	display: inline-block;
-	margin: 40px;
-	padding: 82px 20px 40px 20px;
-	border-top: solid 2px #D9D9D9;
-}
-
 /*eventcontens*/
 .eventWrapper .eventContents {
 	display: flex;
+	margin: 40px;
+	padding: 82px 20px 40px 20px;
+	border-top: solid 2px #D9D9D9;
 	justify-content: center;
 	align-items: center;
+
 }
 .eventWrapper .imageItem{
 	flex: 1;
@@ -43,6 +40,17 @@
 	border-radius: 30px;
 }
 
+.eventWrapper .subTitle {
+	font-size: 24px;
+}
+
+.eventWrapper .subTitle2 {
+	font-size: 48px;
+}
+
+.eventWrapper .subText {
+	font-size: 12px;
+}
 .eventContents .left {
 	text-align: right;
 	padding-right: 10px;
