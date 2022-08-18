@@ -63,3 +63,15 @@
 .eventContents span {
 	color:aqua;
 }
+/*a*/
+.navibar a {
+	color:black;/*カラーコードは任意*/
+	text-decoration: none;
+	font-family: "Montserrat"
+}
+
+
+/*section*/
+section {
+	padding: 0px;
+}
