@@ -1,69 +1,77 @@
-@charset "utf-8";
-/* =========== すべて共通 ===========*/
-.eventWrapper ul {
-    list-style: none;
-    justify-content: center;
+.eventWrapper {
+	max-width: 1320px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*navi*/
+.eventWrapper .navi .navibar {
+	display: flex;
+	margin: 40px;
+}
+.eventWrapper .navi .navibar li {
+	flex: 1;
+	text-align: center;
+}
+
+/*eventcontens*/
+.eventWrapper .eventContents {
+	display: flex;
+	margin: 40px;
+	padding: 82px 20px 40px 20px;
+	border-top: solid 2px #D9D9D9;
+	justify-content: center;
+	align-items: center;
+
+}
+.eventWrapper .imageItem{
+	flex: 1;
+	text-align: center;
+} 
+.eventWrapper .textItem {
+	flex: 1;
+}
+.eventWrapper .imageItem img{
+	width: 100%;
+	max-width: 500px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 30px;
+}
+
+.eventWrapper .subTitle {
+	font-size: 24px;
+}
+
+.eventWrapper .subTitle2 {
+	font-size: 48px;
+}
+
+.eventWrapper .subText {
+	font-size: 16px;
+}
+.eventContents .left {
+	text-align: right;
+	padding-right: 10px;
+}
+.eventContents .right {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.eventContents span {
+	color:aqua;
+}
+/*a*/
+.navibar a {
+	color:black;/*カラーコードは任意*/
+	text-decoration: none;
+	font-family: "Montserrat"
 }
 
 
-p { 
-    font-size: 16px;
-}
-
-.subTitle {
-    font-size: 32px;
-}
-
-.subTitle2 {
-    font-size: 64px;
-}
-
-h2 {
-    font-size: 60px;
-}
-
-.navibar {
-    display: flex;
-}
-
-.navibar li {
-	width: 200px;
-	height: 50px;
-	padding: 25px;
-	margin: 25px;
-    font-size: 24px;
-}
-
-
-.img-right {
-    display: block;
-    height: 500px;
-    width: 600px;
-    overflow: hidden;
-    border-radius: 60px;
-    flex: 1;
-    padding: 50px;
-}
-
-.img-left {
-    display: block;
-    height: 500px;
-    width: 600px;
-    overflow: hidden;
-    border-radius: 60px;
-    flex: 1;
-    padding: 50px;
-}
-
-.main-Wrapper {
-    display: flex;
-    margin-top: 110px;
-    margin-bottom: 110px;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-Wrapper span {
-    color:aquamarine;
+/*section*/
+section {
+	padding: 0px;
 }
