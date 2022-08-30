@@ -1,0 +1,45 @@
+.activityWrapper {
+	max-width: 1320px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.activityWrapper .title {
+    text-align: center;
+    margin: 50px;
+}
+
+.activityWrapper li {
+    text-align: center;
+    padding: 20px;
+    margin: 0px 100px;
+    border-top: solid 2px #D9D9D9;
+}
+
+.subheaderWrapper {
+    background-color: #fff;
+    margin: 90px auto;
+    width: 90%;
+}
+
+.activityWrapper .subheaderWrapper {
+    background-color: #fff;
+    margin-bottom: 90px;
+}
+
+.activityWrapper .subheaderWrapper span {
+    color: #89E0F3;
+}
+
+.activityWrapper .subheaderTop {
+    font-size: 24px;
+}
+
+.activityWrapper .subheaderDown {
+    font-size: 24px;
+}
+
+.activityWrapper .listWrapper {
+    background-color: #fff;
+}
